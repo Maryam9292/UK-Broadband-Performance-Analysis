@@ -1,81 +1,19 @@
-# UK-Broadband-Performance-Analysis
-Statistical analysis of a March 2023 broadband speed dataset in Python, featuring descriptive stats, distribution &amp; correlation visualizations, and non-parametric tests (Mann–Whitney U, Kruskal–Wallis, Wilcoxon) to compare latency and throughput across ISPs, technologies, regions, and rurality.
-# Broadband Speed Statistical Analysis
+# UK-Broadband Performance Statistical Analysis
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/broadband-speed-analysis) ![License](https://img.shields.io/github/license/yourusername/broadband-speed-analysis)
+**Python script for in-depth statistical examination of UK broadband dataset of different Internet Service Providers from March 2023 — featuring descriptive stats, distribution & correlation visualizations, and non-parametric tests to compare latency and throughput across ISPs, technologies, regions, and rurality.**
 
-**Python script for in-depth statistical examination of a broadband speed dataset—featuring descriptive stats, distribution & correlation visualizations, and non-parametric tests.**
-
----
-
-## 🔍 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Repository Structure](#repository-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Analyses & Outputs](#analyses--outputs)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 ## 📄 Project Overview
 
-This repository hosts a single Python script (`broadband_analysis.py`) that:
+This repository hosts a single Python script (`Statistical Analysis.ipynb`) that:
 
-1. **Loads** a raw broadband speed CSV (e.g., March 2023).
-2. **Computes** descriptive statistics (mean, median, IQR) for latency, download, and upload speeds.
+1. **Loads** a raw broadband speed dataset (Dataset - March 2023-Broadband Performance Data.xlsm).
+2. **Computes** descriptive statistics for latency, download, and upload speeds.
 3. **Plots** distribution histograms with KDE overlays and a correlation heatmap.
 4. **Performs** non-parametric tests (Mann–Whitney U, Kruskal–Wallis, Wilcoxon) to compare ISPs, technologies, regions, and rural vs. urban areas.
-5. **Saves** figures and test summaries to `results/` for review or dashboard integration.
+5. **Saves** figures and test summaries for review and dashboard integration.
 
 ---
-
-## 🗂 Repository Structure
-
-```text
-/ 
-├── broadband_analysis.py        # Main analysis script
-├── data/                        # Input CSV(s)
-├── results/                     # Generated stats, plots, and test outputs
-├── images/                      # Add screenshots here
-│   ├── distribution_chart.png
-│   └── dashboard_screenshot.png
-├── requirements.txt             # Python dependencies
-└── README.md                    # This file
-```
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/yourusername/broadband-speed-analysis.git
-cd broadband-speed-analysis
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-
-```bash
-python broadband_analysis.py \
-  --input data/broadband_march2023.csv \
-  --output results/
-```
-
-- **Inputs**: CSV with columns `latency_ms`, `download_mbps`, `upload_mbps`, `isp`, `technology`, `region`, `rurality`.
-- **Outputs**:
-  - `results/plots/*_distribution.png` (histograms + KDE)
-  - `results/plots/correlation_heatmap.png`
-  - `results/stat_tests.txt` (hypothesis test summaries)
-  - `results/descriptive_overall.csv`, ... (aggregated stats)
-
----
-
 ## 📈 Analyses & Outputs
 
 - **Descriptive Statistics**: overall and by group (ISP, technology).
@@ -100,13 +38,10 @@ python broadband_analysis.py \
 
 ---
 
-## 🤝 Contributing
+## 🤝 Future Work
 
-1. Fork the repo  
-2. Create a branch (`git checkout -b feature-name`)  
-3. Commit your changes (`git commit -m "Add feature"`)  
-4. Push to branch (`git push origin feature-name`)  
-5. Open a pull request  
+1. Analyse the broadband performance by upload and download speed at peak and off peak times.
+2. Analysis of broadband speed for NetFlix and YouTube specifically.
 
 ---
 
