@@ -36,6 +36,10 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 
 ### 2. Power BI Dashboard Preview
 
+![Boxplot of Latency in Rural vs Urban Areas Preview](images/rural_urban_latency.png)
+
+### 3. Power BI Dashboard Preview
+
 ![Findings Dashboard Preview](images/broadband_performance.png)
 
 ---
