@@ -32,11 +32,12 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 
 ![Download Speed Distribution](images/Download_speed_24ave.png)
 ![Latency Distribution](images/latency_24h.png)
-![Packet Loss Distribution](images/packet_loss_24h.png)
+---
 
-### 2. Power BI Dashboard Preview
+### 2. Boxplot of Latency in Rural vs Urban Areas Preview
 
 ![Boxplot of Latency in Rural vs Urban Areas Preview](images/rural_urban_latency.png)
+---
 
 ### 3. Power BI Dashboard Preview
 
