@@ -27,7 +27,7 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 ---
 ## 🔍 Key Findings  
 ### Latency Disparity  
-![Latency Comparison](assets/latency_comparison.png)  
+![Boxplot of Latency in Rural vs Urban Areas Preview](images/rural_urban_latency.png)
 - Rural areas experience **24% higher latency** than urban centers (p=0.038)  
 - Satellite technology shows the largest gap: **38ms rural vs 22ms urban**  
 
@@ -58,10 +58,7 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 ![Latency Distribution](images/latency_24h.png)
 ---
 
-### 2. Boxplot of Latency in Rural vs Urban Areas Preview
 
-![Boxplot of Latency in Rural vs Urban Areas Preview](images/rural_urban_latency.png)
----
 
 ### 3. Power BI Dashboard Preview
 
