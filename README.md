@@ -7,7 +7,7 @@
 
 This repository hosts a Python script (`Statistical Analysis.ipynb`) that:
 
-1. **Loads** a raw broadband speed dataset (Dataset - March 2023-Broadband Performance Data.xlsm).
+1. **Loads** a raw broadband speed dataset taken from Ofcom's website (Dataset - March 2023-Broadband Performance Data.xlsm).
 2. **Computes** descriptive statistics for latency, download, and upload speeds.
 3. **Plots** distribution histograms with KDE overlays and a correlation heatmap.
 4. **Performs** non-parametric tests (Mann–Whitney U, Kruskal–Wallis, Wilcoxon) to compare ISPs, technologies, regions, and rural vs. urban areas.
