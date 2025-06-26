@@ -25,6 +25,30 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
   - *Wilcoxon* for paired samples (e.g., tech A vs. tech B).
 
 ---
+## 🔍 Key Findings  
+### Latency Disparity  
+![Latency Comparison](assets/latency_comparison.png)  
+- Rural areas experience **24% higher latency** than urban centers (p=0.038)  
+- Satellite technology shows the largest gap: **38ms rural vs 22ms urban**  
+
+### Technology Performance  
+| Technology | Urban Latency | Rural Latency | Gap  |
+|------------|--------------|--------------|---------|
+| Cable      | 15.2 ms      | 18.7 ms      | +3.5 ms |
+| FTTC       | 18.4 ms      | 24.1 ms      | +5.7 ms |
+| FTTP       | 10.8 ms      | 12.3 ms      | +1.5 ms |
+| Satellite  | 22.1 ms      | 38.4 ms      | +16.3 ms |
+
+### ISP Comparison  
+- **Top Performers**:  
+  - Hyperoptic (Urban: 9.2ms, Rural: 10.5ms)  
+  - Virgin Media (Urban: 14.8ms, Rural: 17.3ms)  
+- **Biggest Gaps**:  
+  - BT (32% higher rural latency)  
+  - Sky Broadband (29% rural latency increase)  
+
+## 🛠️ Technical Implementation  
+
 
 ## 🖼️ Screenshots
 
@@ -44,6 +68,14 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 ![Findings Dashboard Preview](images/broadband_performance.png)
 
 ---
+### Data Pipeline  
+```mermaid  
+graph TD  
+A[Raw Data] --> B[Data Cleaning]  
+B --> C[Outlier Handling]  
+C --> D[Statistical Analysis]  
+D --> E[Feature Engineering]  
+E --> F[Visualization]
 
 ## 🔮 Future Work
 
