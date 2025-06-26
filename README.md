@@ -30,13 +30,13 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 
 ### 1. Data Distribution Chart
 
-![Download Speed Distribution](images/Download speed 24ave.png)
-![Latency Distribution](images/latency 24h.png)
-![Packet Loss Distribution](images/packet loss 24h.png)
+![Download Speed Distribution](images/Download_speed_24ave.png)
+![Latency Distribution](images/latency_24h.png)
+![Packet Loss Distribution](images/packet_loss_24h.png)
 
 ### 2. Power BI Dashboard Preview
 
-![Findings Dashboard Preview](images/broadband performance.png)
+![Findings Dashboard Preview](images/broadband_performance.png)
 
 ---
 
