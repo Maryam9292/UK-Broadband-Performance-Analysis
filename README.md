@@ -30,21 +30,20 @@ This repository hosts a single Python script (`Statistical Analysis.ipynb`) that
 
 ### 1. Data Distribution Chart
 
-![Data Distribution](images/distribution_chart.png)
+![Download Speed Distribution](images/Download speed 24ave.png)
+![Latency Distribution](images/latency 24h.png)
+![Packet Loss Distribution](images/packet loss 24h.png)
 
 ### 2. Power BI Dashboard Preview
 
-![Dashboard Preview](images/dashboard_screenshot.png)
+![Findings Dashboard Preview](images/broadband performance.png)
 
 ---
 
-## 🤝 Future Work
+## 🔮 Future Work
 
 1. Analyse the broadband performance by upload and download speed at peak and off peak times.
 2. Analysis of broadband speed for NetFlix and YouTube specifically.
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
